@@ -1,9 +1,12 @@
 {
   "name": "@gesagro/biomejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared Biome configurations for G&S projects",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
   },
   "license": "ISC",
   "type": "module",
