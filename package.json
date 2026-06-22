@@ -1,6 +1,6 @@
 {
   "name": "@gesagro/biomejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared Biome configurations for G&S projects",
   "publishConfig": {
     "access": "public"
@@ -11,15 +11,12 @@
   "license": "ISC",
   "type": "module",
   "exports": {
-    "./base": "./base.json",
-    "./nestjs": "./nestjs.json",
-    "./react": "./react.json",
-    "./nodejs": "./nodejs.json"
+    "./base": "./generated/base.json",
+    "./nestjs": "./generated/nestjs.json",
+    "./react": "./generated/react.json",
+    "./nodejs": "./generated/nodejs.json"
   },
   "files": [
-    "base.json",
-    "nestjs.json",
-    "react.json",
-    "nodejs.json"
+    "generated"
   ]
 }

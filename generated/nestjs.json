@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.15/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.5.0/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -22,6 +22,9 @@
       "trailingCommas": "all",
       "arrowParentheses": "always",
       "semicolons": "asNeeded"
+    },
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
     }
   },
   "assist": {
@@ -47,7 +50,8 @@
         "noAccumulatingSpread": "off"
       },
       "style": {
-        "useConsistentObjectDefinitions": "error"
+        "useConsistentObjectDefinitions": "error",
+        "useImportType": "off"
       },
       "correctness": {
         "noUnusedImports": {
