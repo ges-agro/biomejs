@@ -2,7 +2,8 @@
   "linter": {
     "rules": {
       "a11y": {
-        "noAutofocus": "off"
+        "noAutofocus": "off",
+        "noSvgWithoutTitle": "off"
       }
     }
   }
