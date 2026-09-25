@@ -1,7 +1,7 @@
 {
   "name": "@gesagro/biomejs",
-  "version": "1.1.0",
-  "description": "Shared Biome configurations for G&S projects",
+  "version": "1.2.0",
+  "description": "Shared biomejs setup for G&S projects",
   "publishConfig": {
     "access": "public"
   },
@@ -20,6 +20,6 @@
     "generated"
   ],
   "dependencies": {
-    "@biomejs/biome": "2.5.3"
+    "@biomejs/biome": "2.5.14"
   }
 }
