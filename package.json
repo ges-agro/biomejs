@@ -1,6 +1,6 @@
 {
   "name": "@gesagro/biomejs",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shared biomejs setup for G&S projects",
   "repository": {
     "type": "git",

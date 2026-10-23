@@ -60,5 +60,10 @@
         "noSvgWithoutTitle": "off"
       }
     }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
   }
 }
